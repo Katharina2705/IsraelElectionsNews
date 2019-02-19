@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- displays the preference items to be selected --><!-- possible filters: EditText published within days / ListPreference Topics-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/settings_menu_item">
+
+    <EditTextPreference
+        android:defaultValue="@string/settings_published_since_days_default"
+        android:inputType="numberDecimal"
+        android:key="@string/settings_published_since_days"
+        android:selectAllOnFocus="true"
+        android:title="@string/settings_published_since_days_label" />
+
+    <ListPreference
+        android:defaultValue="@string/settings_order_by_topic_value11"
+        android:entries="@array/settings_order_by_values"
+        android:entryValues="@array/settings_order_by_labels"
+        android:key="@string/settings_order_by_key"
+        android:title="@string/settings_order_by_topic_label" />
+
+</PreferenceScreen>

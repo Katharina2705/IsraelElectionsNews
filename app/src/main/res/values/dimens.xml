@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="outer_margin">12dp</dimen>
+    <dimen name="inner_margin">16dp</dimen>
+    <dimen name="margin_textthumbnail">20dp</dimen>
+    <dimen name="margin_elements">8dp</dimen>
+
+    <dimen name="title_fontsize">16sp</dimen>
+    <dimen name="section_fontsize">12sp</dimen>
+    <dimen name="othertext_fontsize">14sp</dimen>
+    <dimen name="lineheight_section">20dp</dimen>
+
+    <dimen name="whatsappicon_size">30dp</dimen>
+    <dimen name="thumbnail_size">65dp</dimen>
+</resources>

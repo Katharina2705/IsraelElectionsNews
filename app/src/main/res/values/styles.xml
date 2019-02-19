@@ -1,0 +1,81 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- card theme -->
+    <style name="card_theme">
+        <item name="android:layout_marginLeft">@dimen/outer_margin</item>
+        <item name="android:layout_marginRight">@dimen/outer_margin</item>
+        <item name="android:layout_marginBottom">@dimen/margin_elements</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <!-- regular text -->
+    <style name="regular_text">
+        <item name="android:textSize">@dimen/othertext_fontsize</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:lineHeight">@dimen/lineheight_section</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <!-- title text -->
+    <style name="title_text">
+        <item name="android:textSize">@dimen/title_fontsize</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:lineHeight">@dimen/lineheight_section</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <!-- section/date text -->
+    <style name="section_date_text">
+        <item name="android:textSize">@dimen/section_fontsize</item>
+        <item name="android:layout_height">@dimen/lineheight_section</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <!-- author text -->
+    <style name="author_text" parent="regular_text">
+        <item name="android:textStyle">italic</item>
+        <item name="android:layout_height">@dimen/lineheight_section</item>
+        <item name="android:layout_marginBottom">6dp</item>
+    </style>
+
+    <!-- keywords TextViews -->
+    <style name="keywords_text" parent="regular_text">
+        <item name="android:textColor">@color/textColorKeywords</item>
+        <item name="android:textSize">@dimen/section_fontsize</item>
+    </style>
+
+    <!-- share View container -->
+    <style name="share_view">
+        <item name="android:layout_gravity">right</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <!-- thumbnail View -->
+    <style name="thumbnail_view">
+        <item name="android:layout_marginLeft">@dimen/margin_textthumbnail</item>
+        <item name="android:layout_width">@dimen/thumbnail_size</item>
+        <item name="android:layout_height">@dimen/thumbnail_size</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <!-- share View / WhatsApp-Icon -->
+    <style name="share_view_whatsapp">
+        <item name="android:layout_height">@dimen/whatsappicon_size</item>
+        <item name="android:layout_width">@dimen/whatsappicon_size</item>
+        <item name="android:layout_marginRight">@dimen/margin_elements</item>
+    </style>
+</resources>

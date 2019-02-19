@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- represents the list of topics the user can edit in the Settings --><!-- displayed in ListPreference View in res/xml/settings_main.xml -->
+
+<resources>
+    <string-array name="settings_order_by_labels">
+        <item>@string/settings_order_by_topic_value</item>
+        <item>@string/settings_order_by_topic_value2</item>
+        <item>@string/settings_order_by_topic_value3</item>
+        <item>@string/settings_order_by_topic_value4</item>
+        <item>@string/settings_order_by_topic_value5</item>
+        <item>@string/settings_order_by_topic_value6</item>
+        <item>@string/settings_order_by_topic_value7</item>
+        <item>@string/settings_order_by_topic_value8</item>
+        <item>@string/settings_order_by_topic_value9</item>
+        <item>@string/settings_order_by_topic_value10</item>
+        <item>@string/settings_order_by_topic_value12</item>
+        <item>@string/settings_order_by_topic_value13</item>
+        <item>@string/settings_order_by_topic_value14</item>
+        <item>@string/settings_order_by_topic_value11</item>
+    </string-array>
+
+    <string-array name="settings_order_by_values">
+        <item>@string/settings_order_by_topic_value</item>
+        <item>@string/settings_order_by_topic_value2</item>
+        <item>@string/settings_order_by_topic_value3</item>
+        <item>@string/settings_order_by_topic_value4</item>
+        <item>@string/settings_order_by_topic_value5</item>
+        <item>@string/settings_order_by_topic_value6</item>
+        <item>@string/settings_order_by_topic_value7</item>
+        <item>@string/settings_order_by_topic_value8</item>
+        <item>@string/settings_order_by_topic_value9</item>
+        <item>@string/settings_order_by_topic_key10</item>
+        <item>@string/settings_order_by_topic_key12</item>
+        <item>@string/settings_order_by_topic_value13</item>
+        <item>@string/settings_order_by_topic_value14</item>
+        <item>@string/settings_order_by_topic_key11</item>
+    </string-array>
+</resources>

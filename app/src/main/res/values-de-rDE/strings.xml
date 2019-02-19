@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">IsraelElectionsNews</string>
+    <string name="share">teilen</string>
+    <string name="error">Tut uns leid, wir konnten die Website nicht öffnen!</string>
+    <string name="error_whatsapp">WhatsApp ist auf dem Gerät nicht installiert.</string>
+    <string name="forward_message">Hier ist ein interessanter Artikel für dich.</string>
+    <string name="internet">Keine Internetverbindung</string>
+    <string name="nodata">Tut uns leid! Es sind keine Daten zu deiner Anfrage vorhanden.</string>
+    <string name="settings_published_since_days">Tage seit Veröffentlichung</string>
+    <string name="settings_published_since_days_label">Tage seit Veröffentlichung</string>
+    <string name="settings_menu_item">Einstellungen</string>
+    <string name="settings_order_by_default">Thema</string>
+    <string name="settings_order_by_label">sortiert nach</string>
+    <string name="settings_order_by_topic_label">Thema</string>
+    <string name="settings_order_by_topic_key11">alle</string>
+    <string name="settings_order_by_topic_key10">Anklage Israel</string>
+    <string name="by">von</string>
+    <string name="settings_order_by_topic_key12">Terrorismus/Attacke</string>
+</resources>

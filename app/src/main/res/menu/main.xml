@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?><!-- displays the menu bar + settings -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.israelelectionsnews.MainActivity">
+    <item
+        android:id="@+id/settings_menu"
+        android:title="@string/settings_menu_item" />
+</menu>

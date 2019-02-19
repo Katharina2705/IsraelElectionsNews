@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Israel Elections News</string>
+    <string name="share">share</string>
+    <string name="error">Sorry, we couldn\'t open the website!</string>
+    <string name="error_whatsapp">WhatsApp is not installed on your device.</string>
+    <string name="forward_message">Here\'s an article that might interest you: </string>
+    <string name="placeholder" translatable="false">%1$s/ </string>
+    <string name="hashtag" translatable="false">#%1$s </string>
+    <string name="internet">No internet connection.</string>
+    <string name="nodata">Sorry, we couldn\'t fetch any data for your request.</string>
+
+    <!-- Preferences -->
+    <string name="settings_published_since_days_default" translatable="false">30</string>
+    <string name="settings_published_since_days">published since days</string>
+    <string name="settings_published_since_days_label">published since days</string>
+    <string name="settings_menu_item">Settings</string>
+    <string name="settings_order_by_default">Topic</string>
+    <string name="settings_order_by_key" translatable="false">order_by</string>
+    <string name="settings_order_by_label">order by</string>
+    <string name="settings_order_by_topic_label">Topic</string>
+    <string name="settings_order_by_topic_key" translatable="false">topic</string>
+
+    <!-- keys for list of topics (if translatable, if not key=value) -->
+    <string name="settings_order_by_topic_key10">Israel indictment</string>
+    <string name="settings_order_by_topic_key11">All</string>
+    <string name="settings_order_by_topic_key12">terrorism/attack</string>
+
+    <!-- values for list of topics -->
+    <string name="settings_order_by_topic_value" translatable="false">Netanyahu</string>
+    <string name="settings_order_by_topic_value2" translatable="false">Benny Gantz</string>
+    <string name="settings_order_by_topic_value3" translatable="false">Yair Lapid</string>
+    <string name="settings_order_by_topic_value4" translatable="false">Avichai Mandelblit</string>
+    <string name="settings_order_by_topic_value5" translatable="false">Likud</string>
+    <string name="settings_order_by_topic_value6" translatable="false">Hosen Israel</string>
+    <string name="settings_order_by_topic_value7" translatable="false">Yesh Atid</string>
+    <string name="settings_order_by_topic_value8" translatable="false">Gaza</string>
+    <string name="settings_order_by_topic_value9" translatable="false">West Bank</string>
+    <string name="settings_order_by_topic_value10" translatable="false">Israel AND indictment</string>
+    <string name="settings_order_by_topic_value12" translatable="false">Israel AND terrorism OR Israel AND attack</string>
+    <string name="settings_order_by_topic_value13" translatable="false">Fatah</string>
+    <string name="settings_order_by_topic_value14" translatable="false">Hamas</string>
+
+    <!-- default value for topics preference -->
+    <string name="settings_order_by_topic_value11" translatable="false">Netanyahu OR \"Benny Gantz\" OR \"Yair Lapid\" OR
+    \"Avichai Mandelblit\" OR Likud OR \"Hosen Israel\" OR \"Yesh Atid\" OR Gaza OR \"West Bank\" OR
+    Israel AND indictment OR Israel AND terrorism OR Israel AND attack OR Fatah OR Hamas</string>
+</resources>
